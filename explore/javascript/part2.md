@@ -32,3 +32,9 @@ D. false - different types, === returns false
 E. false - true becomes 1
 F. true - Boolean(2) evaluates to true
 15. If two values are different types, === immediately returns false while == tries to convert.
+17. result is [2,4,6]. The for loop calls callback (in this case, doSomething) on every term in the initial array. The result is an array with every term multiplied by 2.
+19.
+1
+4
+3
+2
